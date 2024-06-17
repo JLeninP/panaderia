@@ -1,0 +1,2 @@
+for i in range(36, 42):
+    print("<Item imagen={imagenes["+ str(i) +"].img} nombre={imagenes["+ str(i) +"].nombre} precio={imagenes["+ str(i) +"].precio} descripcion={imagenes["+ str(i) +"].descripcion}/>")

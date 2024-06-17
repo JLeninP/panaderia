@@ -1,0 +1,312 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif; 
+} */
+.imagenMap{
+    /* height: 30vmin; */
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(1px 2px 3px black);
+}
+.cajaImagenMap{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 500px;
+}
+
+.cajaMap{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    border: 5px;
+    padding: 25px;
+    /* padding-bottom: 25px; */
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajaPadreTarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    background-color: antiquewhite;
+}
+
+.cajaPadre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+    background-color: antiquewhite;
+}
+
+/* .fondo{
+    background-image: url('../assets/img/banner.jpg');
+    background-attachment: fixed;
+} */
+
+/* BANNER */
+.cajaBanner{
+    height: 20%;
+    width: 100%;
+    /* background-attachment: fixed; */
+}
+
+.banner{
+    width: 100%;;
+}
+
+/* MENU */
+.me-auto{
+    /* height: 50px; */
+    margin-left: 60%;
+}
+
+.logo {
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.menuLink{
+    /* padding-right: 15px; */
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.menuDesplegable{
+    /* background-color: #dc3545; */
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/* TITULO */
+.titulo{
+    margin: 0px;
+    padding: 25px;
+    font-size: 60px;
+    background-color: antiquewhite;
+    color: darkred;
+    text-align: center;
+    font-family: "Playwrite CA", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/* INTEGRANTES */
+/* TARJETAS */
+.cajaIntegrante{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* margin: 2%; */
+    /* border: 5px; */
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* border-style: solid;
+    border-color: brown;
+    border-radius: 10px; */
+    justify-content: center;
+    align-items: center;
+}
+.cajaIntegranteImagen{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    width: 200px;
+}
+
+.cajaIntegranteTexto{
+    width: 200px;
+    height: 15vmin;
+    /* padding-right: 35px; */
+    margin: 10px;
+    text-align: justify;
+}
+.imagenIntegrante{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    filter: drop-shadow(2px 3px 6px black);
+}
+.nombreIntegrante{
+    color: rgb(26, 23, 23);
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+.descripcionIntegrante{
+    color: brown;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: normal;
+    text-align: center;
+}
+
+/* TARJETAS */
+.cajaTarjeta{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 2%;
+    border: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.cajaTarjetaImagen{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    width: 200px;
+}
+
+.cajaTarjetaTexto{
+    width: 200px;
+    height: 15vmin;
+    /* padding-right: 35px; */
+    margin: 10px;
+    text-align: justify;
+}
+.imagenTarjeta{
+    height: 20vmin;
+    width: 100%;
+    border-radius: 40px;
+    filter: drop-shadow(2px 3px 6px black);
+}
+.botonTarjeta{
+    display: flex;
+    justify-content: end;
+}
+.nombreTarjeta{
+    color: brown;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.precioTarjeta{
+    color: cadetblue;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* ITEMS */
+.cajaPrincipal{
+    /* background-color: antiquewhite; */
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    border: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajaImagen{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px; */
+    width: 500px;
+}
+
+.cajaTexto{
+    width: 500px;
+    /* padding-right: 35px; */
+    margin: 10px;
+    text-align: justify;
+}
+
+.imagen{
+    height: 30vmin;
+    width: 70%;
+    border-radius: 40px;
+    filter: drop-shadow(2px 3px 6px black);
+}
+
+.nombre{
+    color: brown;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.precio{
+    color: cadetblue;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.descripcion{
+    color: brown;
+    font-family: "Indie Flower", cursive;
+    font-weight: bold;
+    font-size: 18px;
+    font-style: normal;
+}
+.boton{
+    display: flex;
+    justify-content: start;
+}
+
+/* Pie de pagina */
+.pieDePagina{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    padding:100px 0;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: brown;
+}
+.copyright{
+    color: cornsilk;
+    width: 100%;
+}
+.politica-priv{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.terminos-con{
+    color: cornsilk;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
