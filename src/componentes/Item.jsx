@@ -1,4 +1,5 @@
 import '../css/estilo1.css'
+import Boton from './Boton';
 import { Button } from 'reactstrap';
 function Item(props){
     return(
@@ -11,9 +12,7 @@ function Item(props){
                 <h2 className="precio">{props.precio}</h2>
                 <p className="descripcion">{props.descripcion}</p>
                 <div className="boton">
-                    <Button color="danger" size="">
-                        AÑADIR AL CARRITO
-                    </Button>
+                    <Boton nombre="AÑADIR AL CARRITO" />
                 </div>
             </div>
         </div>

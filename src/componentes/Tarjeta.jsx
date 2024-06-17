@@ -1,4 +1,5 @@
 import '../css/estilo1.css';
+import Boton from './Boton';
 import { Button } from 'reactstrap';
 function Tarjeta(props){
     return(
@@ -11,9 +12,7 @@ function Tarjeta(props){
                 <h4 className="precioTarjeta">{props.precio}</h4>
                 {/* <p className="descripcion">{props.descripcion}</p> */}
                 <div className="botonTarjeta">
-                    <Button color="danger" size="">
-                        COMPRAR
-                    </Button>
+                    <Boton nombre="COMPRAR" />
                 </div>
             </div>
         </div>
